@@ -19,9 +19,9 @@ This repository serves as a collection of my web development projects. Each proj
 
 In this project my goal is to recreat my school's website!
 
-### [Project 2: Coming-Soon]
+### [Project 2: UltraEdit]
 
-This Project will be uploaded in 1st quator of 2024!
+I have recreated the ULtraEdit's CWH download page!
 
 ## Contribution Guidelines
 
