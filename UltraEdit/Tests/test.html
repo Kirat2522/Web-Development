@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid - WP3School</title>
+    <style>
+        .box{
+            min-height: 100px;
+            /* width: 100px; */
+            border: 1px solid black;
+            background-color: rgb(59, 17, 17);
+        }
+        .container{
+            border: 1px solid black;
+            display: grid;
+            grid-template-columns: 102px 102px 102px;
+            gap: 5px;
+            padding: 4px;
+            background-color: rgb(47, 47, 128);
+            min-width: 3vw;
+        }
+        .box1{
+            grid-column-start: 1;
+            grid-column-end: 4 ;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .box2{
+            grid-row: 2/4;
+            background-color: gray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box3{
+            grid-row: 4/5;
+            grid-column: 1/4;
+            background-color:white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1"><h1>Header</h1></div>
+        <div class="box box2"><h1>Side</h1></div>
+        <div class="box box3"><h1>Footer</h1></div>
+        <div class="box box4">4</div>
+        <div class="box box5">5</div>
+        <div class="box box6">6</div>
+        <div class="box box7">7</div>
+    </div>
+</body>
+</html>

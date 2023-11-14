@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Exersise - CodeWithHarry</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500&family=Poppins:wght@300;400;500&display=swap');
+
+        body {
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .logo img {
+            height: 60px;
+        }
+
+        .right ul {
+            display: flex;
+            gap: 20px;
+        }
+
+        .right ul li {
+            list-style: none;
+            cursor: pointer;
+        }
+
+        .container {
+            min-height: 150px;
+            width: 300px;
+            background-color: rgb(226, 226, 226);
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 90px 60px;
+            column-gap: 14px;
+        }
+
+        /* .item{
+            /* border: 2px solid black; */
+
+        .item1 {
+            display: flex;
+            justify-content: center;
+            /* display: inline; */
+            grid-column: 1/3;
+            grid-row: 1/2;
+        }
+
+        .item1 h2 {
+            margin: 14px;
+        }
+
+        .item2,
+        .item3 {
+            display: flex;
+            justify-content: center;
+            align-items: start;
+        }
+
+        .item button {
+            border-width: 0px;
+            height: 40px;
+            border-radius: 10px;
+            /* font-family: 'Baloo Bhaijaan 2', sans-serif; */
+            /* background-color: blue; */
+            /* padding: 10px; */
+        }
+
+        .item2 {
+            justify-content: end;
+        }
+
+        .item2 button {
+            background-color: rgb(91, 155, 230);
+        }
+
+        .item3 {
+            justify-content: start;
+        }
+
+        .item3 button {
+            background-color: rgb(53, 197, 154);
+        }
+
+        .item button a {
+            margin: 3px;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+
+        }
+
+        .item3 button:hover {
+            background-color: rgba(53, 197, 154, 0.6);
+        }
+
+        .item2 button:hover {
+            background-color: rgba(91, 155, 230, 0.6);
+        }
+
+        .main-cont {
+            display: grid;
+            grid-template-columns: 300px 300px 300px;
+            grid-template-rows: 1fr 1fr;
+            gap: 40px;
+            margin: 10px 180px;
+        }
+
+        .container1 {
+            grid-column: 1/2;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo">
+            </div>
+            <div class="right">
+                <ul>
+                    <li>Home</li>
+                    <li>Pircing</li>
+                    <li>Resources</li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="main-cont">
+        <div class="container container1">
+            <div class="item item1">
+                <h2>English</h2>
+            </div>
+            <div class="item item2"><button><a href="exe-file/ue_english_64.exe">Download 32-Bit</a></button></div>
+            <div class="item item3"><button><a href="exe-file/ue_english_64.exe">Download 64-Bit</a></button></div>
+        </div>
+
+        <div class="container container2">
+            <div class="item item1">
+                <h2>Odishi</h2>
+            </div>
+            <div class="item item2"><button><a href="exe-file/ue_english_64.exe">Download 32-Bit</a></button></div>
+            <div class="item item3"><button><a href="exe-file/ue_english_64.exe">Download 64-Bit</a></button></div>
+        </div>
+
+        <div class="container container3">
+            <div class="item item1">
+                <h2>Hindi</h2>
+            </div>
+            <div class="item item2"><button><a href="exe-file/ue_english_64.exe">Download 32-Bit</a></button></div>
+            <div class="item item3"><button><a href="exe-file/ue_english_64.exe">Download 64-Bit</a></button></div>
+        </div>
+
+        <div class="container container3">
+            <div class="item item1">
+                <h2>Punjabi</h2>
+            </div>
+            <div class="item item2"><button><a href="exe-file/ue_english_64.exe">Download 32-Bit</a></button></div>
+            <div class="item item3"><button><a href="exe-file/ue_english_64.exe">Download 64-Bit</a></button></div>
+        </div>
+
+        <div class="container container3">
+            <div class="item item1">
+                <h2>Bangali</h2>
+            </div>
+            <div class="item item2"><button><a href="exe-file/ue_english_64.exe">Download 32-Bit</a></button></div>
+            <div class="item item3"><button><a href="exe-file/ue_english_64.exe">Download 64-Bit</a></button></div>
+        </div>
+
+        <div class="container container3">
+            <div class="item item1">
+                <h2>Urdu</h2>
+            </div>
+            <div class="item item2"><button><a href="exe-file/ue_english_64.exe">Download 32-Bit</a></button></div>
+            <div class="item item3"><button><a href="exe-file/ue_english_64.exe">Download 64-Bit</a></button></div>
+        </div>
+
+        <div class="container container3">
+            <div class="item item1">
+                <h2>Chinies</h2>
+            </div>
+            <div class="item item2"><button><a href="exe-file/ue_english_64.exe">Download 32-Bit</a></button></div>
+            <div class="item item3"><button><a href="exe-file/ue_english_64.exe">Download 64-Bit</a></button></div>
+        </div>
+
+        <div class="container container3">
+            <div class="item item1">
+                <h2>Japneese</h2>
+            </div>
+            <div class="item item2"><button><a href="exe-file/ue_english_64.exe">Download 32-Bit</a></button></div>
+            <div class="item item3"><button><a href="exe-file/ue_english_64.exe">Download 64-Bit</a></button></div>
+        </div>
+
+        <div class="container container3">
+            <div class="item item1">
+                <h2>Korean</h2>
+            </div>
+            <div class="item item2"><button><a href="exe-file/ue_english_64.exe">Download 32-Bit</a></button></div>
+            <div class="item item3"><button><a href="exe-file/ue_english_64.exe">Download 64-Bit</a></button></div>
+        </div>
+
+        <div class="container container3">
+            <div class="item item1">
+                <h2>Telegu</h2>
+            </div>
+            <div class="item item2"><button><a href="exe-file/ue_english_64.exe">Download 32-Bit</a></button></div>
+            <div class="item item3"><button><a href="exe-file/ue_english_64.exe">Download 64-Bit</a></button></div>
+        </div>
+
+        <div class="container container3">
+            <div class="item item1">
+                <h2>Kanad</h2>
+            </div>
+            <div class="item item2"><button><a href="exe-file/ue_english_64.exe">Download 32-Bit</a></button></div>
+            <div class="item item3"><button><a href="exe-file/ue_english_64.exe">Download 64-Bit</a></button></div>
+        </div>
+
+        <div class="container container3">
+            <div class="item item1">
+                <h2>Arabi</h2>
+            </div>
+            <div class="item item2"><button><a href="exe-file/ue_english_64.exe">Download 32-Bit</a></button></div>
+            <div class="item item3"><button><a href="exe-file/ue_english_64.exe">Download 64-Bit</a></button></div>
+        </div>
+
+        <div class="container container3">
+            <div class="item item1">
+                <h2>Parsi</h2>
+            </div>
+            <div class="item item2"><button><a href="exe-file/ue_english_64.exe">Download 32-Bit</a></button></div>
+            <div class="item item3"><button><a href="exe-file/ue_english_64.exe">Download 64-Bit</a></button></div>
+        </div>
+
+        <div class="container container3">
+            <div class="item item1">
+                <h2>Bihari</h2>
+            </div>
+            <div class="item item2"><button><a href="exe-file/ue_english_64.exe">Download 32-Bit</a></button></div>
+            <div class="item item3"><button><a href="exe-file/ue_english_64.exe">Download 64-Bit</a></button></div>
+        </div>
+
+        <div class="container container3">
+            <div class="item item1">
+                <h2>Haryanvi</h2>
+            </div>
+            <div class="item item2"><button><a href="exe-file/ue_english_64.exe">Download 32-Bit</a></button></div>
+            <div class="item item3"><button><a href="exe-file/ue_english_64.exe">Download 64-Bit</a></button></div>
+        </div>
+</body>
+
+</html>
